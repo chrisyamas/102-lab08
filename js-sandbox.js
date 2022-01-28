@@ -5,7 +5,7 @@ function catPicCountPrompter(whichPrompt) {
   let catCount = prompt(whichPrompt);
   if (catCount === '') {
     let message = 'How many cat pics would you like to see?';
-    let error = 'Please enter a number between 1 and 4';
+    let error = ' Please enter a number between 1 and 4';
     catPicCountPrompter(message + error);
   }
   if (catCount == 4) {
